@@ -1,0 +1,142 @@
+[
+    {
+        "nev": "Anna Kovács",
+        "kor": 28,
+        "nem": "nő",
+        "email": "anna.kovacs@example.com",
+        "kep_url": "https://i.imgur.com/abcd123.jpg"
+    },
+    {
+        "nev": "Bence Nagy",
+        "kor": 34,
+        "nem": "férfi",
+        "email": "bence.nagy@example.com",
+        "kep_url": "https://i.imgur.com/efgh456.jpg"
+    },
+    {
+        "nev": "Csilla Tóth",
+        "kor": 22,
+        "nem": "nő",
+        "email": "csilla.toth@example.com",
+        "kep_url": "https://i.imgur.com/ijkl789.jpg"
+    },
+    {
+        "nev": "Dániel Szabó",
+        "kor": 45,
+        "nem": "férfi",
+        "email": "daniel.szabo@example.com",
+        "kep_url": "https://i.imgur.com/mnop012.jpg"
+    },
+    {
+        "nev": "Erika Kiss",
+        "kor": 31,
+        "nem": "nő",
+        "email": "erika.kiss@example.com",
+        "kep_url": "https://i.imgur.com/qrst345.jpg"
+    },
+    {
+        "nev": "Ferenc Horváth",
+        "kor": 29,
+        "nem": "férfi",
+        "email": "ferenc.horvath@example.com",
+        "kep_url": "https://i.imgur.com/uvwx678.jpg"
+    },
+    {
+        "nev": "Gabriella Varga",
+        "kor": 26,
+        "nem": "nő",
+        "email": "gabriella.varga@example.com",
+        "kep_url": "https://i.imgur.com/yzab901.jpg"
+    },
+    {
+        "nev": "Hunor Molnár",
+        "kor": 38,
+        "nem": "férfi",
+        "email": "hunor.molnar@example.com",
+        "kep_url": "https://i.imgur.com/cdef234.jpg"
+    },
+    {
+        "nev": "Ildikó Németh",
+        "kor": 24,
+        "nem": "nő",
+        "email": "ildiko.nemeth@example.com",
+        "kep_url": "https://i.imgur.com/ghij567.jpg"
+    },
+    {
+        "nev": "János Farkas",
+        "kor": 41,
+        "nem": "férfi",
+        "email": "janos.farkas@example.com",
+        "kep_url": "https://i.imgur.com/klmn890.jpg"
+    },
+    {
+        "nev": "Katalin Balogh",
+        "kor": 36,
+        "nem": "nő",
+        "email": "katalin.balogh@example.com",
+        "kep_url": "https://i.imgur.com/opqr123.jpg"
+    },
+    {
+        "nev": "László Papp",
+        "kor": 33,
+        "nem": "férfi",
+        "email": "laszlo.papp@example.com",
+        "kep_url": "https://i.imgur.com/stuv456.jpg"
+    },
+    {
+        "nev": "Mária Simon",
+        "kor": 27,
+        "nem": "nő",
+        "email": "maria.simon@example.com",
+        "kep_url": "https://i.imgur.com/wxyz789.jpg"
+    },
+    {
+        "nev": "Norbert Lakatos",
+        "kor": 39,
+        "nem": "férfi",
+        "email": "norbert.lakatos@example.com",
+        "kep_url": "https://i.imgur.com/abcd234.jpg"
+    },
+    {
+        "nev": "Orsolya Fekete",
+        "kor": 30,
+        "nem": "nő",
+        "email": "orsolya.fekete@example.com",
+        "kep_url": "https://i.imgur.com/efgh567.jpg"
+    },
+    {
+        "nev": "Péter Szűcs",
+        "kor": 35,
+        "nem": "férfi",
+        "email": "peter.szucs@example.com",
+        "kep_url": "https://i.imgur.com/ijkl890.jpg"
+    },
+    {
+        "nev": "Réka Takács",
+        "kor": 32,
+        "nem": "nő",
+        "email": "reka.takacs@example.com",
+        "kep_url": "https://i.imgur.com/mnop345.jpg"
+    },
+    {
+        "nev": "Sándor Oláh",
+        "kor": 28,
+        "nem": "férfi",
+        "email": "sandor.olah@example.com",
+        "kep_url": "https://i.imgur.com/qrst678.jpg"
+    },
+    {
+        "nev": "Tímea Bíró",
+        "kor": 25,
+        "nem": "nő",
+        "email": "timea.biro@example.com",
+        "kep_url": "https://i.imgur.com/uvwx901.jpg"
+    },
+    {
+        "nev": "Zoltán Gábor",
+        "kor": 37,
+        "nem": "férfi",
+        "email": "zoltan.gabor@example.com",
+        "kep_url": "https://i.imgur.com/yzab234.jpg"
+    }
+]
