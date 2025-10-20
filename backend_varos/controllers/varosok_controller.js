@@ -18,6 +18,9 @@ const varosokController={
             res.status(201).json(newVaros);
         } catch (error) {
             res.status(500).json({error:'Internal Server error', details: error.message});
+            if (error.code === 'ER_DUP_ENTRY') {
+                return res.status(400).json({ error: 'Ez az irányítószám már létezik.' });
+            }
         }
     },
     async getById(req,res){
@@ -75,6 +78,9 @@ const varosokController={
             }
         } catch (error) {
             res.status(500).json({error:'Internal Server error'});
+            if (error.code === 'ER_DUP_ENTRY') {
+                return res.status(400).json({ error: 'Ez az irányítószám már létezik.' });
+            }
         }
     },
     async delete(req,res){
