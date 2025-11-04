@@ -8,5 +8,4 @@ router.put('/:id', orszagokController.update);
 router.get('/nev/:nev', orszagokController.getByNev);
 router.delete('/:id', orszagokController.delete);
 router.get('/kezdo/:kezdo', orszagokController.getByKezdoBetuk);
-
 module.exports = router;
