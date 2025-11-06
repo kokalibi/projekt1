@@ -1,30 +1,38 @@
 import { useState, useEffect } from "react";
 import http from "../httpcommon";
-import Button from 'react-bootstrap/Button';
+import { Button, Card, Form, Row, Col, Spinner, Alert } from "react-bootstrap";
 
 const Orszagok = () => {
   const [orszagok, setOrszagok] = useState([]);
   const [ujOrszag, setUjOrszag] = useState({ kod: "", nev: "", regio: "" });
   const [kivalasztott, setKivalasztott] = useState(null);
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const fetchOrszagok = async () => {
+    setLoading(true);
     try {
       const response = await http.get("orszagok");
       setOrszagok(response.data);
+      setError("");
     } catch (error) {
       console.error(error);
       setError("Hiba történt az országok lekérése során: " + error.message);
+    } finally {
+      setLoading(false);
     }
   };
 
   async function deleteOrszag(id) {
+    if (!window.confirm("Biztosan törölni szeretnéd ezt az országot?")) return;
     try {
+      setLoading(true);
       await http.delete(`orszagok/${id}`);
       fetchOrszagok();
     } catch (error) {
       console.error(error);
       setError("Nem sikerült törölni az országot: " + error.message);
+      setLoading(false);
     }
   }
 
@@ -44,103 +52,116 @@ const Orszagok = () => {
 
   async function addOrszag() {
     try {
+      setLoading(true);
       await http.post("orszagok", ujOrszag);
       fetchOrszagok();
       setUjOrszag({ kod: "", nev: "", regio: "" });
     } catch (error) {
       console.error(error);
       setError("Hiba történt az ország hozzáadása során: " + error.message);
+      setLoading(false);
     }
   }
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>Országok kezelése</h1>
+    <div className="container mt-4">
+      <h1 className="mb-4 text-center">🌍 Országok kezelése</h1>
 
-      {error && <div style={{ color: "red" }}>{error}</div>}
+      {error && <Alert variant="danger">{error}</Alert>}
 
-      <h2>Új ország hozzáadása</h2>
-      <input
-        type="text"
-        placeholder="Kód (pl. HU)"
-        value={ujOrszag.kod}
-        onChange={(e) => setUjOrszag({ ...ujOrszag, kod: e.target.value })}
-      />
-      <input
-        type="text"
-        placeholder="Név (pl. Magyarország)"
-        value={ujOrszag.nev}
-        onChange={(e) => setUjOrszag({ ...ujOrszag, nev: e.target.value })}
-      />
-      <input
-        type="text"
-        placeholder="Régió (pl. Európa)"
-        value={ujOrszag.regio}
-        onChange={(e) => setUjOrszag({ ...ujOrszag, regio: e.target.value })}
-      />
-      <button onClick={addOrszag}>Hozzáadás</button>
+      <Card className="mb-4">
+        <Card.Header>Új ország hozzáadása</Card.Header>
+        <Card.Body>
+          <Form>
+            <Row className="mb-3">
+              <Col md={4}>
+                <Form.Control
+                  type="text"
+                  placeholder="Kód (pl. HU)"
+                  value={ujOrszag.kod}
+                  onChange={(e) => setUjOrszag({ ...ujOrszag, kod: e.target.value })}
+                />
+              </Col>
+              <Col md={4}>
+                <Form.Control
+                  type="text"
+                  placeholder="Név (pl. Magyarország)"
+                  value={ujOrszag.nev}
+                  onChange={(e) => setUjOrszag({ ...ujOrszag, nev: e.target.value })}
+                />
+              </Col>
+              <Col md={4}>
+                <Form.Control
+                  type="text"
+                  placeholder="Régió (pl. Európa)"
+                  value={ujOrszag.regio}
+                  onChange={(e) => setUjOrszag({ ...ujOrszag, regio: e.target.value })}
+                />
+              </Col>
+            </Row>
+            <Button variant="success" onClick={addOrszag} disabled={loading}>
+              {loading ? <Spinner animation="border" size="sm" /> : "Hozzáadás"}
+            </Button>
+          </Form>
+        </Card.Body>
+      </Card>
 
-      <h2>Országlista</h2>
-      <table border="1" cellPadding="5" style={{ borderCollapse: "collapse" }}>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Kód</th>
-            <th>Név</th>
-            <th>Régió</th>
-            <th>Műveletek</th>
-          </tr>
-        </thead>
-        <tbody>
+      <h2 className="mb-3">Országlista</h2>
+
+      {loading ? (
+        <div className="text-center my-5">
+          <Spinner animation="border" variant="primary" />
+          <div>Betöltés...</div>
+        </div>
+      ) : (
+        <Row>
           {orszagok.map((orszag) => (
-            <tr key={orszag.id}>
-              <td>{orszag.id}</td>
-              <td>{orszag.kod}</td>
-              <td>{orszag.nev}</td>
-              <td>{orszag.regio}</td>
-              <td>
-                <Button variant="primary" onClick={() => fetchById(orszag.id)}>Részletek</Button>
-                <button onClick={() => deleteOrszag(orszag.id)}>Törlés</button>
-              </td>
-            </tr>
-            /*Card component from react-bootstrap can be used for better UI 
-            <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div> 
-            */
+            <Col md={4} key={orszag.id} className="mb-4">
+              <Card>
+                <Card.Body>
+                  <Card.Title>{orszag.nev}</Card.Title>
+                  <Card.Subtitle className="mb-2 text-muted">{orszag.kod}</Card.Subtitle>
+                  <Card.Text>Régió: {orszag.regio}</Card.Text>
+                  <Button
+                    variant="primary"
+                    size="sm"
+                    onClick={() => fetchById(orszag.id)}
+                    className="me-2"
+                  >
+                    Részletek
+                  </Button>
+                  <Button
+                    variant="danger"
+                    size="sm"
+                    onClick={() => deleteOrszag(orszag.id)}
+                  >
+                    Törlés
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
           ))}
-        </tbody>
-      </table>
+        </Row>
+      )}
 
       {kivalasztott && (
-        <div style={{ marginTop: "20px" }}>
-          <h3>Kiválasztott ország:</h3>
-          <p>
-            <strong>ID:</strong> {kivalasztott.id}
-          </p>
-          <p>
-            <strong>Kód:</strong> {kivalasztott.kod}
-          </p>
-          <p>
-            <strong>Név:</strong> {kivalasztott.nev}
-          </p>
-          <p>
-            <strong>Régió:</strong> {kivalasztott.regio}
-          </p>
-        </div>
+        <Card className="mt-4">
+          <Card.Header>Kiválasztott ország</Card.Header>
+          <Card.Body>
+            <p>
+              <strong>ID:</strong> {kivalasztott.id}
+            </p>
+            <p>
+              <strong>Kód:</strong> {kivalasztott.kod}
+            </p>
+            <p>
+              <strong>Név:</strong> {kivalasztott.nev}
+            </p>
+            <p>
+              <strong>Régió:</strong> {kivalasztott.regio}
+            </p>
+          </Card.Body>
+        </Card>
       )}
     </div>
   );
