@@ -65,7 +65,7 @@ const Orszagok = () => {
 
   return (
     <div className="container mt-4">
-      <h1 className="mb-4 text-center">🌍 Országok kezelése</h1>
+      <h1 className="mb-4 text-center">Országok kezelése</h1>
 
       {error && <Alert variant="danger">{error}</Alert>}
 
