@@ -16,8 +16,8 @@ function BasicExample() {
 
             <NavDropdown title="Bs components" id="basic-nav-dropdown">
               <NavDropdown.Item href="/alerts">Alert</NavDropdown.Item>
-              <NavDropdown.Item href="/badge">
-                Badge
+              <NavDropdown.Item href="/orszagok">
+                Orszagok
               </NavDropdown.Item>
               <NavDropdown.Item href="/products">products</NavDropdown.Item>
               <NavDropdown.Divider />

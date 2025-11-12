@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "pic": "https://flagcdn.com/w320/hu.png",
+    "name": "Magyarország",
+    "options": ["Magyarország", "Ausztria", "Szlovákia", "Románia"]
+  },
+  {
+    "id": 2,
+    "pic": "https://flagcdn.com/w320/fr.png",
+    "name": "Franciaország",
+    "options": ["Franciaország", "Olaszország", "Spanyolország", "Belgium"]
+  },
+  {
+    "id": 3,
+    "pic": "https://flagcdn.com/w320/de.png",
+    "name": "Németország",
+    "options": ["Hollandia", "Németország", "Svájc", "Dánia"]
+  },
+  {
+    "id": 4,
+    "pic": "https://flagcdn.com/w320/it.png",
+    "name": "Olaszország",
+    "options": ["Olaszország", "Spanyolország", "Görögország", "Franciaország"]
+  },
+  {
+    "id": 5,
+    "pic": "https://flagcdn.com/w320/es.png",
+    "name": "Spanyolország",
+    "options": ["Portugália", "Olaszország", "Spanyolország", "Franciaország"]
+  },
+  {
+    "id": 6,
+    "pic": "https://flagcdn.com/w320/gb.png",
+    "name": "Egyesült Királyság",
+    "options": ["Írország", "Egyesült Királyság", "Kanada", "Ausztrália"]
+  },
+  {
+    "id": 7,
+    "pic": "https://flagcdn.com/w320/gr.png",
+    "name": "Görögország",
+    "options": ["Törökország", "Olaszország", "Görögország", "Ciprus"]
+  },
+  {
+    "id": 8,
+    "pic": "https://flagcdn.com/w320/ru.png",
+    "name": "Oroszország",
+    "options": ["Ukrajna", "Fehéroroszország", "Oroszország", "Kazahsztán"]
+  },
+  {
+    "id": 9,
+    "pic": "https://flagcdn.com/w320/jp.png",
+    "name": "Japán",
+    "options": ["Kína", "Japán", "Dél-Korea", "Thaiföld"]
+  },
+  {
+    "id": 10,
+    "pic": "https://flagcdn.com/w320/br.png",
+    "name": "Brazília",
+    "options": ["Argentína", "Chile", "Peru", "Brazília"]
+  }
+]

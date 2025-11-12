@@ -1,0 +1,54 @@
+body {
+  background-color: darkcyan;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+}
+
+div {
+  text-align: center;
+  margin-top: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+}
+
+img {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 20px;
+  
+}
+
+button {
+  display: block;
+  width: 250px;
+  margin: 10px auto;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 6px;
+  background-color: white;
+  font-size: 16px;
+}
+
+
+
+button:disabled {
+  opacity: 0.8;
+}
+
+.helyes {
+  background-color: green;
+  color: white;
+}
+
+.hiba {
+  background-color: red;
+  color: white;
+}

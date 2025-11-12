@@ -9,6 +9,7 @@ import Main from './components/Main.jsx';
 import Slies from './components/Slieas2.jsx';
 import ButtonExample from './components/Badge.jsx';
 import Product from './components/Productlist.jsx';
+import Orszagok from './components/Orszag.jsx';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/slies" element={<Slies />} />
         <Route path="/badge" element={<ButtonExample />} />
         <Route path="/products" element={<Product />} />
+        <Route path="/orszagok" element={<Orszagok />} />
       </Routes>
     </Router>
     </>
