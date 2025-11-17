@@ -37,7 +37,7 @@ function CounrtyQuiz() {
 <div>
     {!eredmeny ? (
         <div>
-            <img src={aktualisKerdes.pic}></img>
+            <img src={aktualisKerdes.pic} style={{'borderRadius':'60px'}}></img>
 
             <div>
                 {valaszKevero.map ((data, index) => (
