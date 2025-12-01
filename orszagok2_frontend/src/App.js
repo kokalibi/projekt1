@@ -6,6 +6,7 @@ import Keres from './components/keres';
 import Loginform from './components/login/Loginform';
 import Userprofile from './components/login/Userprofile';
 import Reg from './components/login/RegForm';
+import FilterDataForm from './components/FilterDataForm';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <li><Link to="/login">Bejelentkezés</Link></li>
           <li><Link to="/profile">Profil</Link></li>
           <li><Link to="/register">Regisztráció</Link></li>
+          <Link to="/filter">filter</Link>
         </ul>
       </nav>
       <Routes>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/login" element={<Loginform accesstoken={accessToken} setAccessToken={setAccessToken} />} />
         <Route path="/profile" element={<Userprofile />} />
         <Route path="/register" element={< Reg/>} />
+        <Route path='/filter' element={<FilterDataForm/>}/>
       </Routes>
     </Router>
 

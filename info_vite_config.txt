@@ -1,0 +1,159 @@
+Frontend létrehozása (Vite) - node 18.20.5 helyett a 20.19 vagy 22.12 kell
+---------------------------
+Extrák nélküli telepítés:
+-------------------------
+npm create vite@latest vite-react-app -- --template react
+cd vite-react-app
+npm install
+npm install react-router-dom@7
+
+src/
+ └─ assets/
+ ├─ main.jsx
+ ├─ App.jsx
+ └─ components/
+     ├─ Home.jsx
+     └─ About.jsx
+
+npm create vite@latest frontendvite --template react
+  vagy TypeScript esetén:
+  =======================
+  npm create vite@latest my-react-app -- --template react-ts
+
+cd frontendvite
+npm install
+
+Indítsd el a Vite fejlesztői szervert: npm run dev
+
+A Vite fejlesztői szervere alapértelmezetten a http://localhost:5173 címen érhető el.
+( Éles verzió készítése a dev mappába: npm run build )
+
+my-react-app/
+├─ public/          # Nyilvános fájlok
+├─ src/             # Forráskód
+│   ├─ assets/      # Képek, statikus fájlok
+│   ├─ App.jsx      # Fő alkalmazás komponens
+│   └─ main.jsx     # Belépési pont
+├─ index.html       # HTML sablon
+└─ vite.config.js   # Vite konfiguráció
+
+
+A frontend és a backend összekötése
+
+vite.config.js
+--------------
+export default defineConfig({
+  server: {
+    proxy: {
+      '/api': 'http://localhost:8080',
+    },
+  },
+});
+
+Ez biztosítja, hogy az API-hívások (/api/something) automatikusan a localhost:5000 szerverre továbbítódjanak.
+
+Ha a frontend és a backend egy szerveren futtatását szeretnéd, akkor a Vite build fájljait 
+a backend public mappájába kell helyezni, és Expresszel kiszolgálni.
+
+A Vite egy frontend fejlesztői eszköz, amely gyorsabbá teszi a fejlesztést.
+Express backend és Vite frontend külön szerverként működik fejlesztéskor.
+Proxy beállítással megoldható, hogy a Vite automatikusan továbbítsa az API kéréseket a backendhez.
+
+============= vagy ==========================
+// vite.config.js
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+// Proxy konfiguráció
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'http://localhost:8080', // A backend címe
+        changeOrigin: true, //A proxy átírja az Origin fejlécet a backend szerver URL-jére pl.(http://localhost:8080)
+        secure: false, // HTTPS esetén állítsd true-ra, ha szükséges
+        rewrite: (path) => path.replace(/^\/api/, ''), // Eltávolítja az /api előtagot
+      },
+    },
+  },
+});
+
+/api: Bármely olyan kérés, amely /api-val kezdődik, a proxyhoz kerül.
+target: A backend szerver címe, amely a 8080 porton fut.
+changeOrigin: Bizonyos CORS problémák esetén segít.
+secure: Ha a backend HTTPS-t használ, állítsd true-ra.
+rewrite: Lehetővé teszi az útvonalak átírását (pl.: http://localhost:5173/api/users → http://localhost:8080/users).
+
+TESZTELÉS:
+npm install -D vitest @testing-library/react @testing-library/jest-dom jsdom
+
+vite.config.ts beállítás
+/// <reference types="vitest" />
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    globals: true,
+    environment: 'jsdom', // böngésző környezet szimulálása
+    setupFiles: './src/setupTests.ts', // opcionális setup
+  },
+})
+
+src/setupTests.ts
+-----------------
+import '@testing-library/jest-dom'
+
+PÉLDA: Button.jsx
+-----------------
+import { useState } from "react";
+
+export default function Button({ label }) {
+  const [clicked, setClicked] = useState(false);
+
+  return (
+    <button
+      className={`px-4 py-2 rounded ${
+        clicked ? "bg-green-500 clicked" : "bg-blue-500"
+      } text-white`}
+      onClick={() => setClicked(true)}
+    >
+      {label}
+    </button>
+  );
+}
+
+
+Példa teszt (src/components/Button.test.jsx)
+--------------------------------------------
+import { render, screen, fireEvent } from '@testing-library/react'
+import Button from './Button'
+
+test('renders button and handles click', () => {
+  render(<Button label="Click me" />)
+
+  const btn = screen.getByText(/click me/i)
+  expect(btn).toBeInTheDocument()
+
+  fireEvent.click(btn)
+  expect(btn).toHaveClass('clicked') // pl. egy state változás alapján
+})
+
+
+1. package.json kiegészítése:
+
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "test": "vitest"
+}
+
+
+Futás:
+npm run test
+
+Egy file:
+npx vitest run src/components/Button.test.js
