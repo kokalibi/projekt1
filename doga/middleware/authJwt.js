@@ -1,7 +1,7 @@
-const jwt = require('jsonwebtoken');
-
+var jwt = require("jsonwebtoken")
 const ACCESS_SECRET = process.env.ACCESS_SECRET;
 const REFRESH_SECRET = process.env.REFRESH_SECRET;
+
 
 function authenticateToken(req, res, next) {
     const authHeader = req.headers['authorization'];
@@ -14,14 +14,5 @@ function authenticateToken(req, res, next) {
     });
 }
 
-function isAdmin(req, res, next) {
-    if (req.user && req.user.role === 'admin') {
-        next();
-    } else {
-        res.sendStatus(403); // Nincs jogosultság
-    }
-}
+module.exports = authenticateToken 
 
-module.exports = {
-    authenticateToken,isAdmin
-};

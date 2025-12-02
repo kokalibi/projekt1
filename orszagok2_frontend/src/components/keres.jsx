@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import http from "../httpcommon";
+import http from "../api";
 import { Button, Card, Form, Row, Col, Spinner, Alert, Container } from "react-bootstrap";
 
 const Orszagok = () => {

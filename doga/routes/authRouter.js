@@ -28,13 +28,6 @@ function authenticateToken(req, res, next) {
         next();
     });
 }
-function isAdmin(req, res, next) {
-    if (req.user && req.user.role === 'admin') {
-        next();
-    } else {
-        res.sendStatus(403); // Nincs jogosultság
-    }
-}
 
 //Login user
 router.post('/login', (req, res) => {
@@ -44,12 +37,38 @@ router.post('/login', (req, res) => {
         const user = { id: 1, username: 'testuser', role: 'user' }; 
         const accessToken = generateAccessToken(user);
         const refreshToken = generateRefreshToken(user);
-        res.cookie('refreshToken', refreshToken, { httpOnly: true, secure: false, sameSite: 'Lax', maxAge: 7*24*60*60*1000 }); // 7 nap
-        res.json({ accessToken, refreshToken });
+        //res.json({ accessToken, refreshToken });
+        res.cookie('refreshToken', refreshToken, 
+            { httpOnly: true, 
+              secure: false, // true ha HTTPS-t használsz
+              sameSite: 'Lax', // Strict, Lax, None
+              maxAge: 7*24*60*60*1000 // 7 nap
+            });
+        res.json({ accessToken });
+
     } else {
         res.status(401).send('Érvénytelen belépés');
     }
 });
+
+//Token frissítése
+router.post('/refresh', (req, res) => {
+    const refreshToken = req.cookies.refreshToken;
+    if (refreshToken == null) return res.sendStatus(401);
+
+    jwt.verify(refreshToken, REFRESH_SECRET, (err, user) => {
+        if (err) return res.sendStatus(403);
+        const newAccessToken = generateAccessToken({ id: user.id, username: user.username, role: user.role });
+        res.json({ accessToken: newAccessToken });
+    });
+});
+
+//logout
+router.post('/logout', (req, res) => {
+    res.clearCookie('refreshToken', { httpOnly: true, secure: true, sameSite: 'Lax' });
+    res.sendStatus(204);
+});
+
 
 //Védett útvonal példa
 router.get('/profile', authenticateToken, (req, res) => {
@@ -65,24 +84,8 @@ router.get('/profile', authenticateToken, (req, res) => {
 
 });
 
-//Token frissítése
-router.post('/token', (req, res) => {
-    const refreshToken = req.cookies.refreshToken;
-    if (refreshToken == null) return res.sendStatus(401);
-    jwt.verify(refreshToken, REFRESH_SECRET, (err, user) => {
-        if (err) return res.sendStatus(403);
-        const newAccessToken = generateAccessToken({ id: user.id, username: user.username, role: user.role });
-        res.json({ accessToken: newAccessToken });
-    });
-});
-
-//Kijelentkezés
-router.post('/logout', (req, res) => {
-    res.clearCookie('refreshToken');
-    res.sendStatus(204);
-});
-
 //{"id":1,"username":"testuser","role":"user","iat":1763381221,"exp":1763382121}
 
 
 module.exports = router;
+

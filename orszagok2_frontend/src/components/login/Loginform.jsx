@@ -1,4 +1,4 @@
-import api from "../../httpcommon";
+import api from "../../api";
 import { useState } from "react";
 
 
