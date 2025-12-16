@@ -1,0 +1,48 @@
+/*
+ WebSocket szerver - Chat szerver
+*/
+function initWs(server)
+{
+// WebSocket szerver létrehozása a meglévő HTTP szerver használatával
+const WebSocket = require('ws');
+const wss = new WebSocket.Server({ server });
+
+// Felhasználók tárolása (felhasználó azonosítója -> WebSocket kapcsolat)
+const users = new Map();
+
+wss.on('connection', (ws) => {
+    ws.on('message', (message) => {
+        const data = JSON.parse(message);
+
+        if (!ws.username && data.username) {
+            // Az első üzenetben beállítjuk a felhasználónevet
+            ws.username = data.username;
+            users.set(ws.username, ws); // Felhasználó és WebSocket kapcsolat tárolása
+            console.log(`Felhasználó csatlakozott: ${ws.username}`);
+        } else if (ws.username && data.text) {
+            // További üzenetek kezelése
+            const formattedMessage = `${ws.username}: ${data.text}`;
+            console.log(formattedMessage);
+
+            // Üzenet továbbítása minden klienshez
+            wss.clients.forEach((client) => {
+                if (client.readyState === WebSocket.OPEN) {
+                    client.send(formattedMessage);
+                }
+            });
+        }
+    });
+
+    ws.on('close', () => {
+        // Kapcsolat bontásakor eltávolítjuk a felhasználót a Map-ből
+        if (ws.username) {
+            users.delete(ws.username);
+            console.log(`Felhasználó bontotta a kapcsolatot: ${ws.username}`);
+        }
+    });
+});
+}
+
+module.exports = {
+    initWs
+};

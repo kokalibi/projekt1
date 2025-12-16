@@ -22,6 +22,9 @@ app.set('port', port);
 
 var server = http.createServer(app);
 
+var ws_server=require('./ws')
+ws_server.initWs(server)
+
 /**
  * Listen on provided port, on all network interfaces.
  */
