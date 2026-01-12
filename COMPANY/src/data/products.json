@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Pro 15",
+      "description": "Nagy teljesítményű laptop munkához és tanuláshoz.",
+      "price": 420000,
+      "onSale": true,
+      "discountPercent": 15
+    },
+    {
+      "id": 2,
+      "name": "Laptop Air 13",
+      "description": "Könnyű és hordozható laptop mindennapi használatra.",
+      "price": 310000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 3,
+      "name": "Okostelefon X",
+      "description": "Csúcskategóriás okostelefon kiváló kamerával.",
+      "price": 280000,
+      "onSale": true,
+      "discountPercent": 10
+    },
+    {
+      "id": 4,
+      "name": "Okostelefon Lite",
+      "description": "Megfizethető okostelefon alapfunkciókkal.",
+      "price": 150000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 5,
+      "name": "Tablet Plus",
+      "description": "Tablet szórakozáshoz és munkához.",
+      "price": 190000,
+      "onSale": true,
+      "discountPercent": 20
+    },
+    {
+      "id": 6,
+      "name": "Tablet Mini",
+      "description": "Kompakt tablet utazáshoz.",
+      "price": 130000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 7,
+      "name": "Okosóra Active",
+      "description": "Sportoláshoz és egészségfigyeléshez.",
+      "price": 90000,
+      "onSale": true,
+      "discountPercent": 25
+    },
+    {
+      "id": 8,
+      "name": "Okosóra Classic",
+      "description": "Elegáns okosóra mindennapokra.",
+      "price": 110000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 9,
+      "name": "Bluetooth fejhallgató",
+      "description": "Vezeték nélküli fejhallgató zajszűréssel.",
+      "price": 60000,
+      "onSale": true,
+      "discountPercent": 30
+    },
+    {
+      "id": 10,
+      "name": "Vezetékes fejhallgató",
+      "description": "Kiváló hangzás otthoni használatra.",
+      "price": 25000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 11,
+      "name": "Gaming egér",
+      "description": "Precíziós egér játékosoknak.",
+      "price": 18000,
+      "onSale": true,
+      "discountPercent": 10
+    },
+    {
+      "id": 12,
+      "name": "Billentyűzet",
+      "description": "Mechanikus billentyűzet háttérvilágítással.",
+      "price": 35000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 13,
+      "name": "Monitor 27\"",
+      "description": "Nagy felbontású monitor irodai munkához.",
+      "price": 120000,
+      "onSale": true,
+      "discountPercent": 15
+    },
+    {
+      "id": 14,
+      "name": "Monitor 24\"",
+      "description": "Kompakt monitor otthonra.",
+      "price": 90000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 15,
+      "name": "Nyomtató",
+      "description": "Színes tintasugaras nyomtató.",
+      "price": 70000,
+      "onSale": true,
+      "discountPercent": 20
+    },
+    {
+      "id": 16,
+      "name": "Szkenner",
+      "description": "Gyors dokumentumszkennelés.",
+      "price": 50000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 17,
+      "name": "Router",
+      "description": "Gyors és stabil internetkapcsolat.",
+      "price": 40000,
+      "onSale": true,
+      "discountPercent": 10
+    },
+    {
+      "id": 18,
+      "name": "USB-C kábel",
+      "description": "Gyors adatátvitel és töltés.",
+      "price": 5000,
+      "onSale": false,
+      "discountPercent": 0
+    },
+    {
+      "id": 19,
+      "name": "Power bank",
+      "description": "Nagy kapacitású hordozható akkumulátor.",
+      "price": 20000,
+      "onSale": true,
+      "discountPercent": 25
+    },
+    {
+      "id": 20,
+      "name": "Webkamera",
+      "description": "Full HD webkamera online meetingekhez.",
+      "price": 30000,
+      "onSale": false,
+      "discountPercent": 0
+    }
+  ]
+}

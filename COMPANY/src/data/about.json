@@ -1,0 +1,19 @@
+{
+  "companyName": "TechNova Kft.",
+  "founded": 2015,
+  "description": "A TechNova Kft. innovatív technológiai megoldásokat kínál magánszemélyek és vállalkozások számára.",
+  "mission": "Célunk, hogy modern, megbízható és megfizethető digitális termékeket biztosítsunk ügyfeleinknek.",
+  "values": [
+    "Minőség",
+    "Innováció",
+    "Ügyfélközpontúság",
+    "Fenntarthatóság"
+  ],
+  "logo": "/images/logo.png",
+  "heroImage": "/images/company.jpg",
+  "contact": {
+    "email": "info@technova.hu",
+    "phone": "+36 30 123 4567",
+    "address": "1111 Budapest, Fő utca 1."
+  }
+}

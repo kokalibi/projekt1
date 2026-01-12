@@ -1,0 +1,17 @@
+{
+  "title": "Üdvözöljük a TechNova Kft. weboldalán!",
+  "subtitle": "Innovatív megoldások az Ön kényelméért",
+  "welcomeText": "Fedezze fel termékeinket, akcióinkat, és ismerje meg cégünket! A TechNova Kft. célja, hogy modern és megbízható digitális termékeket biztosítson minden ügyfelünk számára.",
+  "heroImages": [
+    "/images/slideshow/slide1.jpg",
+    "/images/slideshow/slide2.jpg",
+    "/images/slideshow/slide3.jpg",
+    "/images/slideshow/slide4.jpg",
+    "/images/slideshow/slide5.jpg",
+    "/images/slideshow/slide6.jpg"
+  ],
+  "cta": {
+    "text": "Ismerje meg a cégünket",
+    "link": "/about"
+  }
+}

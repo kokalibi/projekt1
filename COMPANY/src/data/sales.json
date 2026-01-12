@@ -1,0 +1,25 @@
+{
+  "sales": [
+    {
+      "id": 1,
+      "title": "Tavaszi kiárusítás",
+      "description": "Válogatott termékek kedvezményes áron.",
+      "validUntil": "2026-03-31",
+      "productIds": [1, 3, 5, 7, 9]
+    },
+    {
+      "id": 2,
+      "title": "Kiegészítők hete",
+      "description": "Kiegészítők akár 30% kedvezménnyel.",
+      "validUntil": "2026-02-15",
+      "productIds": [9, 11, 18, 19]
+    },
+    {
+      "id": 3,
+      "title": "Black Friday",
+      "description": "Év legnagyobb akciója! Kiemelt termékek extra kedvezménnyel.",
+      "validUntil": "2026-11-30",
+      "productIds": [1, 3, 5, 7, 9, 13, 15, 17, 19]
+    }
+  ]
+}
