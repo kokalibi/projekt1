@@ -1,0 +1,131 @@
+:root {
+  --primary: #2563eb;
+  --dark: #1e293b;
+  --light: #f8fafc;
+  --text: #334155;
+  --white: #ffffff;
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--light);
+  color: var(--text);
+}
+
+/* Layout struktúra */
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Navbar stílus [cite: 9, 20] */
+.navbar {
+  background: var(--dark);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: var(--shadow);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover { color: var(--white); }
+
+/* Aktív link megkülönböztetése  */
+.nav-links a.active-link {
+  color: var(--white);
+  border-bottom: 2px solid var(--primary);
+}
+
+/* Reszponzív Termék Grid  */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Termék kártya design  */
+.product-card {
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card:hover { transform: translateY(-5px); }
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.category {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--dark);
+  margin: 1rem 0;
+}
+
+/* Gombok */
+.details-btn {
+  display: block;
+  text-align: center;
+  background: var(--primary);
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  font-weight: 600;
+  margin-top: auto;
+}
+
+/* Footer [cite: 10] */
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background: var(--dark);
+  color: #94a3b8;
+  margin-top: 4rem;
+}
