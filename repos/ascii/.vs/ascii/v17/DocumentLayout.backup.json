@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\13d\\source\\repos\\ascii\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0DBE4F0-BEB8-45B9-B4F8-C99ADBB25FCC}|ascii\\ascii.csproj|c:\\users\\13d\\source\\repos\\ascii\\ascii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0DBE4F0-BEB8-45B9-B4F8-C99ADBB25FCC}|ascii\\ascii.csproj|solutionrelative:ascii\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\ascii\\ascii\\Program.cs",
+              "RelativeDocumentMoniker": "ascii\\Program.cs",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\ascii\\ascii\\Program.cs*",
+              "RelativeToolTip": "ascii\\Program.cs*",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAiwHsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-16T09:20:38.598Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

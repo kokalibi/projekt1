@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\matrix2\matrix2.1\bin\Debug\net10.0\matrix2.1.exe
+C:\Users\13d\source\repos\matrix2\matrix2.1\bin\Debug\net10.0\matrix2.1.deps.json
+C:\Users\13d\source\repos\matrix2\matrix2.1\bin\Debug\net10.0\matrix2.1.runtimeconfig.json
+C:\Users\13d\source\repos\matrix2\matrix2.1\bin\Debug\net10.0\matrix2.1.dll
+C:\Users\13d\source\repos\matrix2\matrix2.1\bin\Debug\net10.0\matrix2.1.pdb
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.AssemblyInfo.cs
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.dll
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\refint\matrix2.1.dll
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.pdb
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\matrix2.1.genruntimeconfig.cache
+C:\Users\13d\source\repos\matrix2\matrix2.1\obj\Debug\net10.0\ref\matrix2.1.dll

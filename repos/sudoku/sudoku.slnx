@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="gui/gui.csproj" />
+  <Project Path="gui2/gui2.csproj" Id="38dc4593-bae5-4fe1-b444-014f811e4cda" />
+</Solution>

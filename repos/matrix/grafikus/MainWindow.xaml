@@ -1,0 +1,27 @@
+﻿<Window x:Class="grafikus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:grafikus"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <ComboBox x:Name="cbMatrixok" Width="250" Margin="0,0,0,10" SelectionChanged="cbMatrixok_SelectionChanged"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,10">
+            <UniformGrid x:Name="grid" Margin="5"/>
+        </Border>
+        <StackPanel x:Name="info" Orientation="Vertical" Margin="0,0,0,10">
+            <TextBlock Text="Összeg: " Margin="0,0,10,0"/>
+            <TextBlock x:Name="osszeg" Margin="0,0,10,0"/>
+            <TextBlock Text="Maximum: " Margin="0,0,10,0"/>
+            <TextBlock x:Name="maximum" Margin="0,0,20,0"/>
+            <TextBlock Text="Minimum: " Margin="0,0,10,0"/>
+            <TextBlock x:Name="minimum" Margin="0,0,10,0"/>
+            <TextBlock Text="Leggyakoribb: " Margin="0,0,10,0"/>
+            <TextBlock x:Name="leggyakoribb"/>
+            <TextBlock Text="Átlag: " Margin="20,0,10,0"/>
+            <TextBlock x:Name="atlag" Margin="0,0,10,0"/>
+        </StackPanel>      
+    </StackPanel>
+</Window>

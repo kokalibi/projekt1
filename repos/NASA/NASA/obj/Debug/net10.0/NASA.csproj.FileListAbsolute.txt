@@ -1,0 +1,4 @@
+C:\Users\13d\source\repos\NASA\NASA\obj\Debug\net10.0\NASA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\NASA\NASA\obj\Debug\net10.0\NASA.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\NASA\NASA\obj\Debug\net10.0\NASA.AssemblyInfo.cs
+C:\Users\13d\source\repos\NASA\NASA\obj\Debug\net10.0\NASA.csproj.CoreCompileInputs.cache

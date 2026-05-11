@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\13d\\source\\repos\\Keresztrejtveny\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F0E173-6CBA-42C1-8178-E674C384B4B7}|Keresztrejtveny\\Keresztrejtveny.csproj|c:\\users\\13d\\source\\repos\\keresztrejtveny\\keresztrejtveny\\keresztrejtvenyracs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F0E173-6CBA-42C1-8178-E674C384B4B7}|Keresztrejtveny\\Keresztrejtveny.csproj|solutionrelative:keresztrejtveny\\keresztrejtvenyracs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4F0E173-6CBA-42C1-8178-E674C384B4B7}|Keresztrejtveny\\Keresztrejtveny.csproj|c:\\users\\13d\\source\\repos\\keresztrejtveny\\keresztrejtveny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4F0E173-6CBA-42C1-8178-E674C384B4B7}|Keresztrejtveny\\Keresztrejtveny.csproj|solutionrelative:keresztrejtveny\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KeresztrejtvenyRacs.cs",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\Keresztrejtveny\\Keresztrejtveny\\KeresztrejtvenyRacs.cs",
+              "RelativeDocumentMoniker": "Keresztrejtveny\\KeresztrejtvenyRacs.cs",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\Keresztrejtveny\\Keresztrejtveny\\KeresztrejtvenyRacs.cs",
+              "RelativeToolTip": "Keresztrejtveny\\KeresztrejtvenyRacs.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAYwIAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:27:03.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\Keresztrejtveny\\Keresztrejtveny\\Program.cs",
+              "RelativeDocumentMoniker": "Keresztrejtveny\\Program.cs",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\Keresztrejtveny\\Keresztrejtveny\\Program.cs",
+              "RelativeToolTip": "Keresztrejtveny\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T11:24:02.42Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+C:\Users\13d\source\repos\ascii\ascii\bin\Debug\ascii.exe.config
+C:\Users\13d\source\repos\ascii\ascii\bin\Debug\ascii.exe
+C:\Users\13d\source\repos\ascii\ascii\bin\Debug\ascii.pdb
+C:\Users\13d\source\repos\ascii\ascii\obj\Debug\ascii.csproj.AssemblyReference.cache
+C:\Users\13d\source\repos\ascii\ascii\obj\Debug\ascii.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\ascii\ascii\obj\Debug\ascii.exe
+C:\Users\13d\source\repos\ascii\ascii\obj\Debug\ascii.pdb
+C:\Users\13d\source\repos\ascii\ascii\obj\Debug\ascii.exe.config

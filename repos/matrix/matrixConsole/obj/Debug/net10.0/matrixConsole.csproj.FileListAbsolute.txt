@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\matrix\matrixConsole\bin\Debug\net10.0\matrixConsole.exe
+C:\Users\13d\source\repos\matrix\matrixConsole\bin\Debug\net10.0\matrixConsole.deps.json
+C:\Users\13d\source\repos\matrix\matrixConsole\bin\Debug\net10.0\matrixConsole.runtimeconfig.json
+C:\Users\13d\source\repos\matrix\matrixConsole\bin\Debug\net10.0\matrixConsole.dll
+C:\Users\13d\source\repos\matrix\matrixConsole\bin\Debug\net10.0\matrixConsole.pdb
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.AssemblyInfo.cs
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.dll
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\refint\matrixConsole.dll
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.pdb
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\matrixConsole.genruntimeconfig.cache
+C:\Users\13d\source\repos\matrix\matrixConsole\obj\Debug\net10.0\ref\matrixConsole.dll

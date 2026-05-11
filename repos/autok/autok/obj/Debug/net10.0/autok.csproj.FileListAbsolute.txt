@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\autok\autok\bin\Debug\net10.0\autok.exe
+C:\Users\13d\source\repos\autok\autok\bin\Debug\net10.0\autok.deps.json
+C:\Users\13d\source\repos\autok\autok\bin\Debug\net10.0\autok.runtimeconfig.json
+C:\Users\13d\source\repos\autok\autok\bin\Debug\net10.0\autok.dll
+C:\Users\13d\source\repos\autok\autok\bin\Debug\net10.0\autok.pdb
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.AssemblyInfo.cs
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.dll
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\refint\autok.dll
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.pdb
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\autok.genruntimeconfig.cache
+C:\Users\13d\source\repos\autok\autok\obj\Debug\net10.0\ref\autok.dll

@@ -1,0 +1,8 @@
+C:\Users\13d\source\repos\otszaz\otszaz\bin\Debug\otszaz.exe.config
+C:\Users\13d\source\repos\otszaz\otszaz\bin\Debug\otszaz.exe
+C:\Users\13d\source\repos\otszaz\otszaz\bin\Debug\otszaz.pdb
+C:\Users\13d\source\repos\otszaz\otszaz\obj\Debug\otszaz.csproj.AssemblyReference.cache
+C:\Users\13d\source\repos\otszaz\otszaz\obj\Debug\otszaz.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\otszaz\otszaz\obj\Debug\otszaz.exe
+C:\Users\13d\source\repos\otszaz\otszaz\obj\Debug\otszaz.pdb
+C:\Users\13d\source\repos\otszaz\otszaz\obj\Debug\otszaz.exe.config

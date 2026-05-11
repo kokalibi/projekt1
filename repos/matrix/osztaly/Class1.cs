@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace osztaly
+{
+    public class Class1
+    {
+        public int[,] data { get; set; }
+        public int sor => data.GetLength(0);
+        public int oszlop => data.GetLength(1);
+        public Class1(List<string> sorok)
+        {
+            int sorCount = sorok.Count;
+            int oszlopCount = sorok[0].Split(',').Length;
+            data = new int[sorCount, oszlopCount];
+
+            for (int i = 0; i < sorCount; i++)
+            {
+                string[] oszlopok = sorok[i].Split(',');
+                for (int j = 0; j < oszlopCount; j++)
+                {
+                    data[i, j] = int.Parse(oszlopok[j].Trim());
+                }
+            }
+        }
+        public int Osszeg()
+        {
+            int osszeg = 0;
+            for (int i = 0; i < sor; i++)
+            {
+                for (int j = 0; j < oszlop; j++)
+                {
+                    osszeg += data[i, j];
+                }
+            }
+            return osszeg;
+        }
+        public int Max()
+        {
+            int max = data[0, 0];
+            for (int i = 0; i < sor; i++)
+            {
+                for (int j = 0; j < oszlop; j++)
+                {
+                    if (data[i, j] > max)
+                    {
+                        max = data[i, j];
+                    }
+                }
+            }
+            return max;
+        }
+        public int Min()
+        {
+            int min = data[0, 0];
+            for (int i = 0; i < sor; i++)
+            {
+                for (int j = 0; j < oszlop; j++)
+                {
+                    if (data[i, j] < min)
+                    {
+                        min = data[i, j];
+                    }
+                }
+            }
+            return min;
+        }
+        public double Atlag()
+        {
+            int osszeg = Osszeg();
+            int elemekSzama = sor * oszlop;
+            return (double)osszeg / elemekSzama;
+        }
+        public int Leggyakoribb()
+        {
+            return data.Cast<int>()
+                .GroupBy(x => x)
+                .OrderByDescending(g => g.Count())
+                .First()
+                .Key;
+
+        }
+        public override string ToString()=> $"{sor}x{oszlop}";
+    }
+}

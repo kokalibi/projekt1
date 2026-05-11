@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\13d\\source\\repos\\matrix\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{784CE7FD-DA5D-4454-8E8D-45B082017EF4}|grafikus\\grafikus.csproj|c:\\users\\13d\\source\\repos\\matrix\\grafikus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784CE7FD-DA5D-4454-8E8D-45B082017EF4}|grafikus\\grafikus.csproj|solutionrelative:grafikus\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784CE7FD-DA5D-4454-8E8D-45B082017EF4}|grafikus\\grafikus.csproj|c:\\users\\13d\\source\\repos\\matrix\\grafikus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{784CE7FD-DA5D-4454-8E8D-45B082017EF4}|grafikus\\grafikus.csproj|solutionrelative:grafikus\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8170A288-471F-475E-81CE-CF512572666F}|osztaly\\osztaly.csproj|c:\\users\\13d\\source\\repos\\matrix\\osztaly\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8170A288-471F-475E-81CE-CF512572666F}|osztaly\\osztaly.csproj|solutionrelative:osztaly\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\matrix\\osztaly\\Class1.cs",
+              "RelativeDocumentMoniker": "osztaly\\Class1.cs",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\matrix\\osztaly\\Class1.cs",
+              "RelativeToolTip": "osztaly\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:28:32.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\matrix\\grafikus\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "grafikus\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\matrix\\grafikus\\MainWindow.xaml",
+              "RelativeToolTip": "grafikus\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-28T08:28:09.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\13d\\source\\repos\\matrix\\grafikus\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "grafikus\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\13d\\source\\repos\\matrix\\grafikus\\MainWindow.xaml.cs",
+              "RelativeToolTip": "grafikus\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T08:28:08.652Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

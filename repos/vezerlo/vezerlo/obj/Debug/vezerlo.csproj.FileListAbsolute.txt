@@ -1,0 +1,7 @@
+C:\Users\13d\source\repos\vezerlo\vezerlo\bin\Debug\vezerlo.exe.config
+C:\Users\13d\source\repos\vezerlo\vezerlo\bin\Debug\vezerlo.exe
+C:\Users\13d\source\repos\vezerlo\vezerlo\bin\Debug\vezerlo.pdb
+C:\Users\13d\source\repos\vezerlo\vezerlo\obj\Debug\vezerlo.csproj.AssemblyReference.cache
+C:\Users\13d\source\repos\vezerlo\vezerlo\obj\Debug\vezerlo.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\vezerlo\vezerlo\obj\Debug\vezerlo.exe
+C:\Users\13d\source\repos\vezerlo\vezerlo\obj\Debug\vezerlo.pdb

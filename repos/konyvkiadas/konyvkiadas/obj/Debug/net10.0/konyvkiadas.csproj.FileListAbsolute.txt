@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\bin\Debug\net10.0\konyvkiadas.exe
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\bin\Debug\net10.0\konyvkiadas.deps.json
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\bin\Debug\net10.0\konyvkiadas.runtimeconfig.json
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\bin\Debug\net10.0\konyvkiadas.dll
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\bin\Debug\net10.0\konyvkiadas.pdb
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.AssemblyInfo.cs
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.dll
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\refint\konyvkiadas.dll
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.pdb
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\konyvkiadas.genruntimeconfig.cache
+C:\Users\13d\source\repos\konyvkiadas\konyvkiadas\obj\Debug\net10.0\ref\konyvkiadas.dll

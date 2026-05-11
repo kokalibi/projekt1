@@ -1,0 +1,8 @@
+C:\Users\13d\source\repos\cbradio\cbradio\bin\Debug\cbradio.exe.config
+C:\Users\13d\source\repos\cbradio\cbradio\bin\Debug\cbradio.exe
+C:\Users\13d\source\repos\cbradio\cbradio\bin\Debug\cbradio.pdb
+C:\Users\13d\source\repos\cbradio\cbradio\obj\Debug\cbradio.csproj.AssemblyReference.cache
+C:\Users\13d\source\repos\cbradio\cbradio\obj\Debug\cbradio.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\cbradio\cbradio\obj\Debug\cbradio.exe
+C:\Users\13d\source\repos\cbradio\cbradio\obj\Debug\cbradio.pdb
+C:\Users\13d\source\repos\cbradio\cbradio\obj\Debug\cbradio.exe.config

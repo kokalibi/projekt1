@@ -1,0 +1,7 @@
+C:\Users\13d\source\repos\jelado\jelado\bin\Debug\jelado.exe.config
+C:\Users\13d\source\repos\jelado\jelado\bin\Debug\jelado.exe
+C:\Users\13d\source\repos\jelado\jelado\bin\Debug\jelado.pdb
+C:\Users\13d\source\repos\jelado\jelado\obj\Debug\jelado.csproj.AssemblyReference.cache
+C:\Users\13d\source\repos\jelado\jelado\obj\Debug\jelado.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\jelado\jelado\obj\Debug\jelado.exe
+C:\Users\13d\source\repos\jelado\jelado\obj\Debug\jelado.pdb

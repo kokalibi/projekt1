@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\bin\Debug\net10.0\LezerLoveszet.exe
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\bin\Debug\net10.0\LezerLoveszet.deps.json
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\bin\Debug\net10.0\LezerLoveszet.runtimeconfig.json
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\bin\Debug\net10.0\LezerLoveszet.dll
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\bin\Debug\net10.0\LezerLoveszet.pdb
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.AssemblyInfo.cs
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.dll
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\refint\LezerLoveszet.dll
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.pdb
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\LezerLoveszet.genruntimeconfig.cache
+C:\Users\13d\source\repos\LezerLoveszet\LezerLoveszet\obj\Debug\net10.0\ref\LezerLoveszet.dll

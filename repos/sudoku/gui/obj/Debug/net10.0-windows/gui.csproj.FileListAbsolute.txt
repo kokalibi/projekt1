@@ -1,0 +1,4 @@
+C:\Users\13d\source\repos\sudoku\gui\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\13d\source\repos\sudoku\gui\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\13d\source\repos\sudoku\gui\obj\Debug\net10.0-windows\gui_MarkupCompile.cache
+C:\Users\13d\source\repos\sudoku\gui\obj\Debug\net10.0-windows\gui_MarkupCompile.lref

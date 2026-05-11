@@ -1,0 +1,5 @@
+﻿List<osztaly> lista = new List<osztaly>();
+foreach (var item in File.ReadAllLines("forras.txt"))
+{
+    lista.Add(new osztaly(item.Split(',')[0], item.Split(',')[1..]));
+}

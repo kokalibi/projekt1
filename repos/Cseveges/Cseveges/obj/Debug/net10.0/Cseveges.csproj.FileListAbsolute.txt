@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\Cseveges\Cseveges\bin\Debug\net10.0\Cseveges.exe
+C:\Users\13d\source\repos\Cseveges\Cseveges\bin\Debug\net10.0\Cseveges.deps.json
+C:\Users\13d\source\repos\Cseveges\Cseveges\bin\Debug\net10.0\Cseveges.runtimeconfig.json
+C:\Users\13d\source\repos\Cseveges\Cseveges\bin\Debug\net10.0\Cseveges.dll
+C:\Users\13d\source\repos\Cseveges\Cseveges\bin\Debug\net10.0\Cseveges.pdb
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.AssemblyInfo.cs
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.dll
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\refint\Cseveges.dll
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.pdb
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\Cseveges.genruntimeconfig.cache
+C:\Users\13d\source\repos\Cseveges\Cseveges\obj\Debug\net10.0\ref\Cseveges.dll

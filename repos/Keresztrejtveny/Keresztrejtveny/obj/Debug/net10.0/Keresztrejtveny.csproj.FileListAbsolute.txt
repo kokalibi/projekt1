@@ -1,0 +1,14 @@
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\bin\Debug\net10.0\Keresztrejtveny.exe
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\bin\Debug\net10.0\Keresztrejtveny.deps.json
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\bin\Debug\net10.0\Keresztrejtveny.runtimeconfig.json
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\bin\Debug\net10.0\Keresztrejtveny.dll
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\bin\Debug\net10.0\Keresztrejtveny.pdb
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.AssemblyInfoInputs.cache
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.AssemblyInfo.cs
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.csproj.CoreCompileInputs.cache
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.dll
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\refint\Keresztrejtveny.dll
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.pdb
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\Keresztrejtveny.genruntimeconfig.cache
+C:\Users\13d\source\repos\Keresztrejtveny\Keresztrejtveny\obj\Debug\net10.0\ref\Keresztrejtveny.dll
