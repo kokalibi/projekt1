@@ -1,0 +1,48 @@
+3x4
+Monitor;4,5	Üres;0	Gépház;12,2	Monitor;4,5
+Billentyűzet;1,1	Üres;0	Üres;0	Egér;0,25
+Laptop;2,8	Monitor;4,5	Üres;0	Nyomtató;8,4
+
+2x3
+SSD;0,2	Monitor;5,1	Üres;0
+Üres;0	Kábel;0,8	Switch;1,5
+
+4x2
+Szerver;25,0	Üres;0
+Szerver;22,5	Üres;0
+Szerver;24,1	UPS;15,8
+Üres;0	Üres;0
+
+3x3
+Router;1,2	Switch;1,5	Firewall;2,1
+Üres;0	Kábel;0,5	Üres;0
+Patch Panel;1,1	Üres;0	Üres;0
+
+2x2
+Scanner;3,2	Üres;0
+Üres;0	Projektor;4,8
+
+5x1
+Monitor;5,0
+Monitor;5,2
+Üres;0
+Monitor;4,9
+Monitor;5,1
+
+2x5
+Tablet;0,8	Tablet;0,8	Tablet;0,8	Üres;0	Üres;0
+Üres;0	Dokkoló;1,2	Dokkoló;1,2	Üres;0	Webkamera;0,3
+
+3x2
+Alaplap;1,4	Üres;0
+Videókártya;1,1	Üres;0
+Processzor;0,2	Hűtőborda;0,9
+
+4x4
+Üres;0	Üres;0	Üres;0	Üres;0
+Üres;0	Laptop;2,5	Laptop;2,5	Üres;0
+Üres;0	Laptop;2,5	Laptop;2,5	Üres;0
+Üres;0	Üres;0	Üres;0	Üres;0
+
+1x6
+Egér;0,2	Billentyűzet;1,0	Fejhallgató;0,6	Üres;0	Üres;0	Üres;0
